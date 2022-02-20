@@ -1,4 +1,4 @@
-// clock display //
+// Clock display //
 $('#currentDay').text(moment().format('dddd, MMMM Do'));
 
  //Save Button//
@@ -9,7 +9,7 @@ $( ".saveBtn" ).on( "click", function() {
     localStorage.setItem(key, value);
   });
 
- // Gets ID //
+ // Gets each time block  //
 $('#6 .description').val(localStorage.getItem('6'))
 
  // Show current time //
