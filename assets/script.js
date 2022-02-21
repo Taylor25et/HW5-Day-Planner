@@ -9,14 +9,26 @@ $( ".saveBtn" ).on( "click", function() {
     localStorage.setItem(key, value);
   });
 
- // Gets each time block  //
-$('#6 .description').val(localStorage.getItem('6'))
+ // Gets each time block with ease //
+$('#7 .description').val(localStorage.getItem('7'))
+$('#8 .description').val(localStorage.getItem('8'))
+$('#9 .description').val(localStorage.getItem('9'))
+$('#10 .description').val(localStorage.getItem('10'))
+$('#11 .description').val(localStorage.getItem('11'))
+$('#12 .description').val(localStorage.getItem('12'))
+$('#13 .description').val(localStorage.getItem('13'))
+$('#14 .description').val(localStorage.getItem('14'))
+$('#15 .description').val(localStorage.getItem('15'))
+$('#16 .description').val(localStorage.getItem('16'))
+$('#17 .description').val(localStorage.getItem('17'))
+$('#18 .description').val(localStorage.getItem('18'))
+$('#19 .description').val(localStorage.getItem('19'))
 
  // Show current time //
 function currentTime(){
 var currentHour = moment().hour();
 
- // Loops through every time block //
+ // Loops through every time block like a boss //
 $('.time-block').each(function(){
   var timeBlock = parseInt($(this).attr('id'));
     if (timeBlock < currentHour) {
