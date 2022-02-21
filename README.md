@@ -26,4 +26,5 @@ From there I created the currentTime function to grab the present time of the us
 Once my JS was working, I added the rest of my time blocks in and added more ID/objects for them in JS. 
 
 [DeployedDayPlannerApplication](https://taylor25et.github.io/HW5-Day-Planner/)
+
 [DeployedDayPlannerGitHub](https://github.com/Taylor25et/HW5-Day-Planner)
