@@ -8,7 +8,7 @@ SO THAT I can manage my time effectively
 
 I started with coping over the provided code. Then added a few time blocks to the HTML which I used to test my JS. Moment.js had already been linked so I created an assets folder with my CSS and JS. Then I added my clock display to the JS using the jQuery format on their home page.
 
-![]( )
+![](./assets/pictures/clockdisplay.png)
 
 After reading about the columns for jQuery I decided to use two of the twelve columns for my hour display and my save button, using the other 10 for the description. I used fontAwesome to add the save Icon to my save button. I set each time block ID to the military hour corresponding to the hour of day showing up in my hour display.
 
